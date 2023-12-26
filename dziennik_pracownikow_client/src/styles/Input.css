@@ -1,0 +1,38 @@
+.input__group {
+	position: relative;
+	border-bottom: 2px solid #242424;
+	margin-bottom: 2rem;
+	display: flex;
+}
+
+.input,
+.input-focused {
+	font-size: larger;
+	margin: 0.4rem 0;
+	border: 0;
+	outline: 0;
+	background-color: transparent;
+}
+
+.input__label {
+	position: absolute;
+	top: 0.9rem;
+	left: 0.8rem;
+	transition: transform 150ms ease-out, font-size 150ms ease-out;
+	color: #9d9d9d;
+}
+
+.input-focused ~ .input__label {
+	transform: translateY(-125%);
+	font-size: 0.8rem;
+}
+
+.input__error,
+.input__helperText {
+	font-weight: 600;
+	margin-top: -1.5rem;
+}
+
+.input__error {
+	color: rgb(113, 19, 19);
+}

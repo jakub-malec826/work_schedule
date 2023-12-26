@@ -1,0 +1,16 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+.card {
+	padding: 1rem 2rem;
+	border: 2px solid #aaaaaa;
+	background-color: #626262;
+	box-shadow: 0 0 1rem 0.3rem #373737;
+	border-radius: 1rem;
+	display: flex;
+	flex-direction: column;
+}
