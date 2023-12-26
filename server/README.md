@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
  > run server
 ```
-uvicorn main:mainRouter --reload --port 8000
+python main.py
 ```
 #
  > [fastAPI Docs](http://127.0.0.1:8000/docs)
